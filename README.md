@@ -14,7 +14,7 @@ Form
       
 Bruger feedback
   - Fornavn + efternavn
-    - default: Indtast fornavn
+    - default: Indtast fornavn / Indtast efternavn
       - realtime validering
         - grøn ramme
   - email valideres på submit
