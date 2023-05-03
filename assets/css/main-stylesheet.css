@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: #c5c8ca;
+
+}
+
+.formular fieldset {
+    background-color: #d6d6d6c3;
+    width: 500px;
+    text-align: center;
+    padding: 70px;
+    border-color: rgb(174, 172, 172);
+    border-radius: 12px;
+}
+
+.formular input,
+.formular button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.formular input::placeholder {
+    text-align: center;
+}
+
+.formular button {
+    width: 200px;
+}
+
+.formular button:hover {
+    background-color: #c5c8ca;
+    cursor: pointer;
+}
+
+.notValid {
+    border: 2px solid rgb(227, 28, 28);
+}
+
+.Valid {
+    border: 2px solid green;
+
+}
